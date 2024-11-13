@@ -1,0 +1,42 @@
+/* AboutContent.module.css */
+
+/* About Section */
+.aboutContent {
+    padding: 6rem 4rem;
+    background-color: #343434;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .aboutContent h2 {
+    font-size: 2rem;
+    color: #ed0e0e;
+  }
+  
+  .aboutContent p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #098cd3;
+    line-height: 2;
+    margin-top: 1rem;
+  }
+  
+  
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .aboutContent {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  

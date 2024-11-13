@@ -1,0 +1,75 @@
+/* ContactPage.module.css */
+
+.contactContainer {
+    padding: 6rem 4rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contactTitle {
+    font-size: 2rem;
+    color: #3d8907;
+    margin-bottom: 2rem;
+  }
+  
+  .contactInfo {
+    color: #bd0404;
+    font-size: 1.5rem;
+    line-height: 2;
+    margin-bottom: 4rem;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 2rem;
+    width: 100%;
+  }
+  
+  .contactForm input:focus,
+  .contactForm textarea:focus {
+    border-color: #04cf81;
+    outline: none;
+  }
+  
+  .contactForm button {
+    padding: 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #118cce;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactForm button:hover {
+    background-color: #c76114;
+  }
+  
+  /* Animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .contactContainer {
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
